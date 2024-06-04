@@ -1,0 +1,45 @@
+:root {
+    --black-color: #000000;
+    --white-color: #ffffff;
+    --sky-color: rgb(1, 255, 247);
+    --green-color: rgb(89, 255, 0);
+}
+
+
+[mode="dark"] {
+    --black-color: #ffffff;
+    --white-color: #000000;
+    --sky-color: rgb(89, 255, 0);
+    --green-color: rgb(1, 255, 247);
+}
+
+[mode="orange"] {
+    --black-color: #000000;
+    --white-color: #ff8800;
+    --sky-color: rgb(0, 255, 89);
+    --green-color: rgb(0, 66, 64);
+}
+
+body {
+    background: var(--white-color);
+}
+
+h2 {
+    color: var(--black-color);
+    font-size: 3vw;
+    text-align: center;
+    font-weight: 700;
+}
+
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section {
+    max-width: 1140px;
+    margin: auto;
+    text-align: center;
+}
